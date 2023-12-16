@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .mobile-container {
+        margin: auto;
+        background-color: #555;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+    
+    .icon {
+        display: none;
+    }
+    
+    .topnav a {
+        float: left;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    .active {
+        background-color: #04AA6D;
+        color: white;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .topnav a.icon {
+            float: right;
+            display: block;
+        }
+    
+        .topnav.responsive a:not(.icon) {
+            display: block;
+            float: none;
+            text-align: center;
+        }
+    
+        .main_page {
+            flex-direction: column-reverse;
+        }
+    }
+    
+    .main_page {
+        display: flex;
+    }
+    
+    .main_page h1 {
+        font-size: 3rem;
+    }
+    
+    .main_page span {
+        font-size: 15px;
+    }
+    
+    .left,
+    .right {
+        flex: 1;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    .left {
+        background-color: #f0f0f0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .right {
+        background-color: #e0e0e0;
+        position: relative;
+        object-fit: cover;
+    }
+    
+    .right img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    .container {
+        padding: 20px;
+        font-size: 16px;
+    }
+    
+
+</style>
+
+
+
+<body>
+  <!-- Navbar -->
+
+  <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="active" id="Logo">Logo</a>
+      <div id="myLinks">
+        <a href="./index.htm">Home</a>
+        <a href="./project.html">Project</a>
+       
+        <a href="about.html">Services</a>
+      </div>
+      
+    </div>
+    </div>
+
+
+    <!-- main -->
+    <main class="main_page">
+        <div class="left"><h1>Hello, I am Shubham Dhobe</h1> <span>A FrontEnd  Web Developer Building the Frontend of Website and Web application that leads to the success of the overfall product
+            Hey I'm Shubham , a passionate front-end developer with a keen eye for design and a commitment to creating engaging user experiences. I specialize in turning ideas and designs into responsive and interactive web applications.
+        </span> </div>
+        <div class="right"><img src="./main.jpg" alt="main image"></div>
+    </main>
+<!-- --------------------------------------------------------------- -->
+ <!-- Project -->
+<div class="container">
+    <h1>Project</h1>
+    <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator,
+        etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+    <p>
+        <button type="button" class="btn btn-dark" id="downloadButton">Download Resume</button>
+        <!-- <a href="#" class="btn btn-primary my-2">Download Resume</a> -->
+
+    </p>
+</div>
+<div class="container my-4">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top" src="./Crud app.png" alt="CRUD APP">
+
+                <div class="card-body">
+                    <p class="card-text">
+                        Creating a CRUD (Create, Read, Update, Delete) application using React involves building a
+                        user interface that interacts with a backend server or database</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top"
+                    src="https://w3layouts.com/wp-content/uploads/2015/09/marital-768x488.jpg" alt="matrimoy app">
+                <div class="card-body">
+                    <p class="card-text"> Crating Matrimoney Registration App using HTML CSS and JavaScript</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top"
+                    src="data:image/jpeg;base64,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"
+                    alt="abdul kalam">
+                <div class="card-body">
+                    <p class="card-text">Creating a tribute website using HTML, CSS, and JavaScript is a rewarding
+                        project that allows you to pay homage to someone special.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+     
+            
+              <!-- Bootstrap JS and Popper.js CDN (required for Bootstrap JavaScript components) -->
+              <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            
+            </body>
+            </html>
+            
+        </div>
+
+
+
+
+        <script src="./index.js"></script>
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>
